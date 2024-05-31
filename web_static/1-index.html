@@ -8,30 +8,24 @@
         body {
             margin: 0;
             padding: 0;
-            height: 100%;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
         }
 
         header {
             background-color: #ff0000;
             height: 70px;
             width: 100%;
-            text-align: center;
-        }
-
-        main {
-            flex: 1;
+            margin-top: 0px;
         }
 
         footer {
             background-color: #00ff00;
             height: 60px;
             width: 100%;
+            bottom: 0px;
             display: flex;
-            justify-content: center;
+            position: fixed;
             align-items: center;
+            justify-content: center;
         }
     </style>
 </head>
@@ -39,7 +33,7 @@
     <header></header>
     <main></main>
     <footer>
-        Best School
+        <p>Best School</p>
     </footer>
 </body>
 </html>
